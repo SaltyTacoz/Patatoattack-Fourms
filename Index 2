@@ -8,8 +8,6 @@
 <h1>So What Is This?</h1>
 <p>This is a Fourm where like stated on the previous page, you can comment concerns or other things. Enjoy Hash Army!</p>
 
-</body>
-
 
 <form method='post'>
   NAME: <input type='text' name='name' id='name' /><br />
@@ -24,4 +22,7 @@
   <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
 
   <input type='submit' value='Submit' />  
-</form>
+  
+  
+</body>
+</html>
